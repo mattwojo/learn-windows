@@ -2,6 +2,13 @@
   "build": {
     "content": [
       {
+            "src": "azure",
+            "files": [
+              "**.yml"
+            ],
+            "dest": "modules"
+        },
+        {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -14,15 +21,19 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "azure/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
+          "**/*.gif",
           "**/*.png",
-          "**/*.jpg"
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -37,7 +48,10 @@
     "globalMetadata": {
       "breadcrumb_path": "/learn-windows/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/learn",
+      "clicktale": true,
+      "uhfHeaderId":"MSDocsHeader-Learn"
     },
     "fileMetadata": {},
     "template": [],
