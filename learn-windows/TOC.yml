@@ -1,2 +1,4 @@
 - name: Index
   href: index.md
+- name: Custom Vision
+  href: azure/classify-images-with-custom-vision-service/index.yml

@@ -1,0 +1,19 @@
+### YamlMime:LearningPath
+uid: windows-learn-test.machine-learning
+title: Add machine learning to your app
+summary: This learning path covers the basics of setting up an app with machine learning on Windows 10. [!VIDEO https://youtu.be/aHC3VflzNzQ]
+cardDescription: Add machine learning to your app.
+iconUrl: ../../modules/machine-learning-basics/images/clippy.png
+levels: 
+- beginner
+roles: 
+- developer
+products: 
+- Windows
+prerequisites: This is the prerequisites text for the Sample Learning Path
+metadata:
+  title: Sample Learning Path Page Title
+  description: Sample Learning Path Page Description
+modules:
+- windows-learn-test.add_customvision
+achievement: windows-learn-test.sample-path.trophy

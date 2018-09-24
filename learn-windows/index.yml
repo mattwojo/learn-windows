@@ -1,0 +1,11 @@
+### YamlMime:Hub
+title: Windows TC test repo
+no_toc: true
+sections:
+- items:
+  - type: markdown
+    content: |
+      > [!important]
+      > This is a placeholder page.
+      - [Machine Learning module](azure/machine-learning/index.yml)
+      - [Custom Vision]](azure/classify-images-with-custom-vision-service/index.yml)
